@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- material icons  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!-- START OF HEADER  -->
+    <header>
+        <div class="container">
+            <img class="logo" src="images/logo.png" alt="">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search">
+            </div>
+            <div class="profile-area">
+                <div class="themes-btn">
+
+                    <i id="light" style="display: none;" class="fa-solid fa-sun"></i>
+                    <i id="dark" class="fa-solid fa-moon"></i>
+
+                </div>
+                    <div class="profile">
+                        <div class="profile-photo">
+                            <img src="images/sonny.jpg" alt="">
+                        </div>
+                        <h5>Sonny</h5>
+                        <button class="menu-btn"><i class="fa-solid fa-angle-down"></i></button>
+                    </div>
+                
+                <button id="menu"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- END OF HEADER  -->
+
+<!-- =========================== START MAIN ================= -->
+
+    <main>
+
+<!-- START OF ASIDE  -->
+
+        <aside>
+            <button id="close"><i  class="fa-solid fa-xmark"></i></button>
+            
+            <ul>
+                <li><a href="">
+                    <i class="fa-solid fa-puzzle-piece"></i>
+                    <span>Dashboard</span>
+                </a></li>
+    
+                <li>
+                    <a href=""><i class="fa-solid fa-rotate"></i>
+                        <span>Exchange</span>
+                    </a></li>
+    
+                <li><a href=""><i class="fa-solid fa-wallet"></i>
+                    <span>Wallet</span>
+                </a></li>
+    
+                <li><a href=""><i class="fa-solid fa-closed-captioning"></i>
+                    <span>Transaction</span>
+                </a></li>
+    
+                <li><a href=""><i class="fa-solid fa-chart-pie"></i>
+                    <span>Analytics</span>
+                </a></li>
+    
+                <li><a href=""><i class="fa-solid fa-message"></i>
+                    <span>Messages</span>
+                </a></li>
+    
+                <li><a href=""><i class="fa-solid fa-circle-question"></i>
+                    <span>Help Center</span>
+                </a></li>
+    
+                <li><a href=""><i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </a></li>
+            </ul>
+
+            <div class="update">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <h3>Updates Avilable</h3>
+                <div class="updates">
+                    <p>Security Updates</p>
+                    <p>General Updates</p>
+                </div>
+                <button>Update Now</button>
+            </div>
+
+        </aside>
+
+<!-- END OF ASIDE  -->
+
+
+<!-- =========================== START MIDDLE ================= -->
+
+        <section class="middle">
+            <div class="header">
+                <h2>Overview</h2>
+                <input type="date" placeholder="date">
+            </div>
+            <!-- =========================== START CARDS ================= -->
+            <div class="cards">
+                <div class="card1">
+                    <div class="part1">
+                        <div style="margin-left: 7px;" class="btc-img">
+                            <img src="images/BTC.png" alt="">
+                            <span>BTC</span>
+                        </div>
+                        <h2>$827,119</h2>
+                        <div class="details">
+                            <p>Card Holder</p>
+                            <p>ERNSEST ACHIEVER</p>
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <img src="images/visa.png" alt="">
+                        <img src="images/card chip.png" alt="">
+                        <div class="details">
+                            <div class="expiry">
+                                <p>Expiry</p>
+                                <p>09/10</p>
+                            </div>
+                            <div class="cvv">
+                                <p>cvv</p>
+                                <p>924</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="part1">
+                        <div style="margin-left: 7px;" class="btc-img">
+                            <img src="images/ETH.png" alt="">
+                            <span>EHT</span>
+                        </div>
+                        <h2>$827,119</h2>
+                        <div class="details">
+                            <p>Card Holder</p>
+                            <p>ERNSEST ACHIEVER</p>
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <img src="images/visa.png" alt="">
+                        <img src="images/card chip.png" alt="">
+                        <div class="details">
+                            <div class="expiry">
+                                <p>Expiry</p>
+                                <p>09/10</p>
+                            </div>
+                            <div class="cvv">
+                                <p>cvv</p>
+                                <p>924</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="part1">
+                        <div style="margin-left: 7px;" class="btc-img">
+                            <img src="images/EURO.png" alt="">
+                            <span>BTC</span>
+                        </div>
+                        <h2>$827,119</h2>
+                        <div class="details">
+                            <p>Card Holder</p>
+                            <p>ERNSEST ACHIEVER</p>
+                        </div>
+                    </div>
+                    <div class="part2">
+                        <img src="images/master card.png" alt="">
+                        <img src="images/card chip.png" alt="">
+                        <div class="details">
+                            <div class="expiry">
+                                <p>Expiry</p>
+                                <p>09/10</p>
+                            </div>
+                            <div class="cvv">
+                                <p>cvv</p>
+                                <p>924</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =========================== END CARDS ================= -->
+
+
+
+            <!-- =========================== START MOUNTHLY REPORTS ================= -->
+
+
+            <div class="reports">
+                <div class="income">
+                    <h4>Income</h4>
+                    <details>
+                        <summary>Details</summary>
+                        <h2>$29.023</h2>
+                        <p>+3.5</p>
+                        <p>compared to 29.938 last month</p>
+                    </details>
+                </div>
+                <div class="expenses">
+                    <h4>Expenses</h4>
+                    <details>
+                        <summary>Details</summary>
+                        <h2>$9.003</h2>
+                        <p style="color: red;">-6.5</p>
+                        <p>compared to 29.938 last month</p>
+                    </details>
+                </div>
+                <div class="cashback">
+                    <h4>Cashback</h4>
+                    <details>
+                        <summary>Details</summary>
+                        <h2>$4.7004</h2>
+                        <p>+7.1</p>
+                        <p>compared to 29.938 last month</p>
+                    </details>
+                </div>
+                <div class="turnover">
+                    <h4>Turnover</h4>
+                    <details>
+                        <summary>Details</summary>
+                        <h2>$118.900</h2>
+                        <p style="color: red;">-17.8</p>
+                        <p>compared to 29.938 last month</p>
+                    </details>
+                </div>
+            </div>
+
+            <!-- =========================== END MOUNTHLY REPORTS ================= -->
+
+
+            <!-- =========================== START FAST PAYMENT ================= -->
+
+            <div class="fast-payment">
+                <h2>Fast Payment</h2>
+                <div class="padges">
+                    <div class="padge" style="min-width: 60px;">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: blueviolet;"></span>
+                        <h5>Training</h5>
+                        <h4>$50</h4>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: green;"></span>
+                        <h5>Internet</h5>
+                        <h4>$40</h4>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: blueviolet;"></span>
+                        <h5>Gas</h5>
+                        <h4>$190</h4>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: orangered;"></span>
+                        <h5>Movies</h5>
+                        <h4>$35</h4>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: blueviolet;"></span>
+                        <h5>Education</h5>
+                        <h4>$999</h4>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: orangered;"></span>
+                        <h5>Electricity</h5>
+                        <h4>$109</h4>
+                    </div>
+                    <div class="padge">
+                        <span style="background-color: green;"></span>
+                        <h5>Food</h5>
+                        <h4>$399</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =========================== END FAST PAYMENT ================= -->
+
+
+
+            <!-- =========================== START CANVAS ================= -->
+
+            <canvas id="chart"></canvas>
+
+            <!-- =========================== END CANVAS ================= -->
+
+
+            <!-- =========================== END MIDDLE ================= -->
+
+
+            
+            <!-- =========================== START RIGHT ================= -->
+        </section>
+<!-- =========================== START RIGHT ================= -->
+
+        <section class="right">
+            <!-- =========================== START INVESTMENT ================= -->
+            <div class="investment">
+                <div class="head">
+                    <h2>Investment</h2>
+                    <div class="more">
+                        <span>More</span>
+                        <a><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/uniliver.png" alt="">
+                    <h2>uniliver</h2>
+                    <div class="date">
+                        <p>7 Nov,2025</p>
+                        <p>9:14 pm</p>
+                    </div>
+                    <div class="bonds">
+                        <p>1402</p>
+                        <p>ponds</p>
+                    </div>
+                    <div class="stats">
+                        <p>$20.033</p>
+                        <p>-4.27</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/tesla.png" alt="">
+                    <h2>uniliver</h2>
+                    <div class="date">
+                        <p>1 dec,2025</p>
+                        <p>11:55 am</p>
+                    </div>
+                    <div class="bonds">
+                        <p>5770</p>
+                        <p>ponds</p>
+                    </div>
+                    <div class="stats">
+                        <p>$720,110</p>
+                        <p style="color: green;">+42.27</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/monster.png" alt="">
+                    <h2>uniliver</h2>
+                    <div class="date">
+                        <p>7 may,2025</p>
+                        <p>5:14 am</p>
+                    </div>
+                    <div class="bonds">
+                        <p>700</p>
+                        <p>ponds</p>
+                    </div>
+                    <div class="stats">
+                        <p>$13.43</p>
+                        <p style="color: green;">+7.27</p>
+                    </div>
+                </div>
+                <div class="item" style="border: none;">
+                    <img src="images/mcdonalds.png" alt="">
+                    <h2>uniliver</h2>
+                    <div class="date">
+                        <p>7 oct,2025</p>
+                        <p>9:14 pm</p>
+                    </div>
+                    <div class="bonds">
+                        <p>5200</p>
+                        <p>ponds</p>
+                    </div>
+                    <div class="stats">
+                        <p>$78.033</p>
+                        <p>-3.27</p>
+                    </div>
+                </div>
+            </div>
+            <!-- =========================== START TRANSACTION ================= -->
+            <div class="transactions">
+                    <div class="head">
+                        <h2>Recent Transactions</h2>
+                        <div class="more">
+                            <span>More</span>
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="transaction">
+                        <i class="fa-solid fa-headphones"></i>
+                        <div class="details">
+                            <p>Music</p>
+                            <p>5.8.2025</p>
+                        </div>
+                        <img style=" background:linear-gradient(#ff796f,#bd261b);
+                        box-shadow: 0 2rem 3rem var(--color-danger-light);" src="images/visa.png" alt="">
+                        <div class="credit">
+                            <p>+2757</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <h3>-$20</h3>
+                    </div>
+                    <div class="transaction">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="details">
+                            <p>Shopping</p>
+                            <p>5.8.2025</p>
+                        </div>
+                        <img style="background: linear-gradient(#5d70ff, #5719c2) ;
+                        box-shadow: 0 2rem 3rem var(--color-primary-light);" src="images/visa.png" alt="">
+                        <div class="credit">
+                            <p>+2757</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <h3>-$20</h3>
+                    </div>
+                    <div class="transaction">
+                        <i style="background-color:#a5fda5; color: #38b921;" class="fa-solid fa-utensils"></i>
+                        <div class="details">
+                            <p>Restaurant</p>
+                            <p>5.8.2025</p>
+                        </div>
+                        <img style ="background:linear-gradient(#7f8191,#27282f);
+                        box-shadow: 0 2rem 3rem rgb(0,0,0,0.2);" src="images/master card.png" alt="">
+                        <div class="credit">
+                            <p>+2757</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <h3>-$20</h3>
+                    </div>
+                    <div class="transaction">
+                        <i style="background-color:#fa9072c7; color: #ff0000;" class="fa-solid fa-gamepad"></i>
+                        <div class="details">
+                            <p>Games</p>
+                            <p>5.8.2025</p>
+                        </div>
+                        <img style ="background:linear-gradient(#ff796f,#bd261b);
+                        box-shadow: 0 2rem 3rem var(--color-danger-light);" src="images/visa.png" alt="">
+                        <div class="credit">
+                            <p>+2757</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <h3>-$20</h3>
+                    </div>
+                    <div class="transaction">
+                        <i style="background-color:#fa9072c7; color: #ff0000;"class="fa-solid fa-prescription-bottle-medical"></i>
+                        <div class="details">
+                            <p>Pharmacy</p>
+                            <p>5.8.2025</p>
+                        </div>
+                        <img style ="background: linear-gradient(#5d70ff, #5719c2) ;
+                        box-shadow: 0 2rem 3rem var(--color-primary-light);" src="images/visa.png" alt="">
+                        <div class="credit">
+                            <p>+2757</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <h3>-$20</h3>
+                    </div>
+                    <div class="transaction">
+                        <i style="background-color:#a5fda5; color: #38b921;" class="fa-solid fa-gamepad"></i>
+                        <div class="details">
+                            <p>Fitness</p>
+                            <p>5.8.2025</p>
+                        </div>
+                        <img style ="background:linear-gradient(#7f8191,#27282f);
+                        box-shadow: 0 2rem 3rem rgb(0,0,0,0.2);" src="images/master card.png" alt="">
+                        <div class="credit">
+                            <p>+2757</p>
+                            <p>Credit Card</p>
+                        </div>
+                        <h3>-$20</h3>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+    
+
+<!-- =========================== END MAIN ================= -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
